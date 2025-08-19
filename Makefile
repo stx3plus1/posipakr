@@ -3,7 +3,7 @@ C_FILES=$(wildcard src/*.c)
 
 .PHONY: posipakr
 
-posipakr: ${C_FILES	
+posipakr: ${C_FILES}
 	@$(CC) ${C_FILES} -o $@
 	@strip $@
 

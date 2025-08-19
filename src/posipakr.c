@@ -164,7 +164,7 @@ int main(int ac, char* av[]) {
 				pak_file* cur = &pak->lookup[i];
 				bad_pak_helper(cur);
 
-				printf("[i] %s - %d bytes\n", cur->filename, cur->file_size);
+				printf("[i] %s - %lu bytes\n", cur->filename, cur->file_size);
 			}
 		}
 	}

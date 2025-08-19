@@ -1,0 +1,9 @@
+Package: xyz.cdstx4.posipakr
+Name: posipakr
+Version: 1.0
+Architecture: iphoneos-arm
+Description: tool for manipulating posipak archives
+Maintainer: st4rz
+Author: st4rz
+Section: System
+Tag: role::hacker
