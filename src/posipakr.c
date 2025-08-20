@@ -21,7 +21,7 @@ if (options.file_amt < count) { \
 	print_help(); \
 	destroy_quit(1); \
 } \
-else if (options.file_amt >= 1 && !f[0] || options.file_amt >= 2 && !f[1] || options.file_amt >= 3 && !f[2]) { \
+else if (!f[options.file_amt - 1]) { \
 	puts("[x] missing some file args!?"); \
 	print_help(); \
 	destroy_quit(1); \
