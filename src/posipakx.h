@@ -78,7 +78,7 @@ posipak* load_posipak(const char* filename) {
 		return NULL;
 	}
 	
-	pak->data = malloc(pak->header.data_size);
+	pak->data   = malloc(pak->header.data_size);
 	pak->lookup = malloc(sizeof(pak_file) * pak->header.lookup_len);
 
 	memcpy(pak->lookup, pak_buf + sizeof(posipak_header), sizeof(pak_file) * pak->header.lookup_len);
