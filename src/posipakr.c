@@ -86,7 +86,7 @@ int main(int ac, char* av[]) {
 			}
 		} else {
 			if (j < 3) f[j++] = av[i], options.file_amt = j + 1;
-			else printf("[x] ignoring unusable argument \"%s\"\n", av[i]);
+			else printf("[i] ignoring unusable argument \"%s\"\n", av[i]);
 		}
 	}
 
